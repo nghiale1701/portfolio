@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>nghiaxlee_</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family:'Yantramanav', sans-serif;
+        }
+
+        nav{
+            padding: 70px 100px 100px 100px;
+        }
+
+        #main-page{
+            float: left;
+            font-size: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px 10px 20px;
+            border: solid 1.5px black;
+            border-radius: 8px;
+        }
+       
+        ul{
+            display: inline;
+            list-style: none;
+        }
+
+        #nav-right, div.nav-right, .nav-right li a{
+            display: inline;
+            position: relative;
+        }
+        #nav-right-items{
+            font-size: 20px;
+            font-weight: 600;
+            color: #D1D1D1;
+            text-decoration: none;
+            padding: 0 55px 0 55px;
+            float: right;
+        }
+        
+        #nav-right-items:hover, #nav-right-items:focus, #nav-right-items:active {
+            color: black;
+            text-decoration: none;
+            transition: 0.5s ease;
+        }
+
+        .greeting {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 120px;
+        }
+        .greeting span {
+            padding: 10px;
+        }
+        .greeting #hello {
+            color: black;
+            font-size: 35px;
+            font-weight: 600;
+        }
+        
+        .greeting #introduce {
+            color: #D1D1D1;
+            font-size: 25px;
+        }
+        .read-more button {
+            font-family:'Yantramanav', sans-serif;
+            background-color: white;
+            border: solid 1px #399CEF;
+            padding: 10px 40px 10px 40px;
+            border-radius: 8px;
+            color: #399CEF;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: 0.5s ease;
+        }
+        
+        .read-more button:hover, .read-more button:focus, .read-more button:active {
+            background-color:#399CEF;
+            color: white;
+        }
+
+        .myself {
+            background-color: #399CEF;
+            height: 600px;
+            border-radius: 8px;
+            margin-bottom: 120px;
+        }
+
+        .myself img {
+            width: auto;
+            height: 500px;
+            float: left;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 100px;
+            border: solid 4px white;
+            border-radius: 8px;
+        }
+
+        #paragraph {
+            float: right;
+            width: 55%;
+            color: white;
+            margin-top: 50px;
+            margin-right: 100px;
+        }
+
+        #opening {
+            font-size: 50px;
+            font-weight: 900;
+            text-decoration: underline;
+            margin-top: 45px;
+        }
+
+        #stuff {
+            font-size: 25px;
+            margin-top: 40px;
+        }
+        #facts-head {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        
+        #facts {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="name">
+            <a href="index.html" id="main-page"> nghiaxlee_</a>
+        </div>    
+        <div class="nav-right">
+            <ul>
+                <li><a id="nav-right-items" href=" ">Contact</a></li>
+                <li><a id="nav-right-items" href=" ">Resume</a></li>
+                <li><a id="nav-right-items" href=" ">Work</a></li>
+                <li><a id="nav-right-items" class="active" href="index.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <div class="greeting">
+            <span id="hello">Hello >~<, I'm Nghia. <br> </span>
+            <span id="introduce">I'm currently in my junior year at NEU - National Economic University <br>
+                Welcome to my 1000% hand-coded website XD <br>
+            </span>
+            <a href="index.html" class="read-more"><button>Read More</button></a>
+        </div>
+
+        <div class="myself">
+            <img src="images//selfie.gif" title="Don't mind this, just watch!">
+            <span id="border"></span>
+            <div id="paragraph">
+                <div id="opening">Who am I? </div>
+                <div id="stuff">I've found my interest in design since I was a freshman, especially in UI and UX design. And I'm determined to pursue in this career path.
+                I love working in projects that can be helpful and useful for everyone. <br>
+                <strong>There's always more to learn and improve upon!</strong></div>
+                <div id="facts-head"><em>Some facts about me:</em>
+                    <ul>
+                        <li id="facts">1. BOD: 17/01/2001 (Yes, I'm a Capricorn).</li>
+                        <li id="facts">2. Hometown: Originally on paper Vung Tau but born in Hanoi :(.</li>
+                        <li id="facts">3. Major: E-Commerce (Electronic Commerce).</li>
+                        <li id="facts">4. Hobbies: Listening to music, playing Valorant, wandering around city. </li>
+                    </ul>
+                </div> 
+            </div>      
+        </div>
+</body>
+</html>
