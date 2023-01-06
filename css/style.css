@@ -1,0 +1,399 @@
+/* Embedded Font */
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-Mediu.eot');
+    src: local('NeueHaasDisplay-Mediu'),
+        url('../font/NeueHaasDisplay-Mediu.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-Mediu.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-Mediu.woff') format('woff'),
+        url('../font/NeueHaasDisplay-Mediu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-RomanItalic.eot');
+    src: local('NeueHaasDisplay-RomanItalic'),
+        url('../font/NeueHaasDisplay-RomanItalic.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-RomanItalic.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-RomanItalic.woff') format('woff'),
+        url('../font/NeueHaasDisplay-RomanItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-Black.eot');
+    src: local('NeueHaasDisplay-Black'),
+        url('../font/NeueHaasDisplay-Black.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-Black.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-Black.woff') format('woff'),
+        url('../font/NeueHaasDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-MediumItalic.eot');
+    src: local('NeueHaasDisplay-MediumItalic'),
+        url('../font/NeueHaasDisplay-MediumItalic.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-MediumItalic.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-MediumItalic.woff') format('woff'),
+        url('../font/NeueHaasDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-BlackItalic.eot');
+    src: local('NeueHaasDisplay-BlackItalic'),
+        url('../font/NeueHaasDisplay-BlackItalic.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-BlackItalic.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-BlackItalic.woff') format('woff'),
+        url('../font/NeueHaasDisplay-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-Roman.eot');
+    src: local('NeueHaasDisplay-Roman'),
+        url('../font/NeueHaasDisplay-Roman.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-Roman.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-Roman.woff') format('woff'),
+        url('../font/NeueHaasDisplay-Roman.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-LightItalic.eot');
+    src: local('NeueHaasDisplay-LightItalic'),
+        url('../font/NeueHaasDisplay-LightItalic.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-LightItalic.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-LightItalic.woff') format('woff'),
+        url('../font/NeueHaasDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-Bold.eot');
+    src: local('NeueHaasDisplay-Bold'),
+        url('../font/NeueHaasDisplay-Bold.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-Bold.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-Bold.woff') format('woff'),
+        url('../font/NeueHaasDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-Light.eot');
+    src: local('NeueHaasDisplay-Light'),
+        url('../font/NeueHaasDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-Light.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-Light.woff') format('woff'),
+        url('../font/NeueHaasDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../font/NeueHaasDisplay-Thin.eot');
+    src: local('NeueHaasDisplay-Thin'),
+        url('../font/NeueHaasDisplay-Thin.eot') format('embedded-opentype'),
+        url('../font/NeueHaasDisplay-Thin.woff2') format('woff2'),
+        url('../font/NeueHaasDisplay-Thin.woff') format('woff'),
+        url('../font/NeueHaasDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+/* Embedded Font */
+
+body {
+    font-family: 'Neue Haas Grotesk Display Pro'; 
+    font-weight: 300; 
+    font-style: normal;
+    letter-spacing: 0.75px;
+}
+
+nav{
+    font-weight: 900;
+    font-size: 1.15rem;
+}
+
+.navbar-brand {
+    border: solid 2px black;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.navbar-brand span {
+        z-index: 5;
+        position: relative;
+        transition: color 350ms ease;
+}
+
+.navbar-brand:hover span {
+    color: white;
+}
+
+.navbar-brand::after, .navbar-brand::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #399CEF;
+    z-index: -1;
+}
+
+.navbar-brand::before {
+    transform: translateX(-100%);
+    z-index: 1;
+}
+
+.navbar-brand:hover:before {
+    transform: translateX(0);
+    transition: transform 350ms ease;
+}
+
+.navbar-brand::after {
+    z-index: 0;
+    transform: translateX(100%);
+    transition: none;
+    transition: transform 350ms ease;
+}
+
+.navbar-brand:hover:after {
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 350ms 360ms ease;
+}
+
+.nav-link {
+    color: #8d8d8d;
+}
+
+.nav-link :hover {
+    color: #399CEF;
+    transition: 0.5s ease
+}
+
+.greeting {
+    background: url('../images/back1.jpg') no-repeat;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .greeting {
+        border-radius: 16px;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+}
+
+.fade-in { 
+    animation: fadeIn 1s; 
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.greeting-text {
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.greeting-introduction {
+    color: white;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .greeting-text {
+        font-weight: bold;
+        color: white;
+        letter-spacing: 2px;
+        font-size: 4rem;
+    }
+
+}
+
+.greeting-button {
+    background-color: white;
+}
+
+.greeting-button button {
+    color: black;
+    background-color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
+.greeting-button button:hover {
+    color: white;
+    background-color: #399CEF;
+    transition: 0.3s ease
+}
+
+img.work-image {
+    border-radius: 16px;
+    transition: all 0.3s;
+}
+
+img.work-image:hover {
+    transform: scale(1.03);
+}
+
+@media only screen and (min-width: 768px) {
+    img.work-image {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    }
+
+    img.work-image:hover {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+    }
+
+}
+
+.work-button button{
+    background-color: white;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.work-button{
+    text-decoration: none;
+    color:black;
+}
+
+.work-button button:hover {
+    color: white;
+    background-color: #399CEF;
+    transition: 0.3s ease;
+    border: solid 2gitpx #399CEF ;
+
+}
+
+.work-more {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+@media only screen and (min-width: 768px) {
+    .ml6 {
+        font-size: 3em;
+    }
+
+    .text-wrapper {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+}
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+
+img.img-otherwork{
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-otherwork {
+            width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img-otherwork {
+            width: 25%;
+    }
+}
+
+#contact {
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.info-text {
+    font-size: 1.4rem;
+}
+
+.back-top {
+    display: inline-block;
+    position: relative;
+    font-weight: 900;
+    transition: all .35s ease;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .back-top {
+        display: inline-block;
+        position: relative;
+        font-weight: 900;
+        transition: all .35s ease;
+        font-size: 1.25rem;
+    }
+}
+
+.back-top::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.back-top:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
